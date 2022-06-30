@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Style.css" media="screen" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crear informe</title>
+  </head>
+  <body>
+    <script src="./script.js"></script>
+
+    <div class="container" id="border">
+
+      <div>
+        <img src="Logo.png">
+      </div>
+      <div id="Encabezado-1">
+        <h1>Generar informe</h1>
+      </div>
+
+      <div id="Campos">
+        <table>
+          <tr>
+            <td> <p class="Enc"> Vialidad: <input type="text" name="nombre" value="" required></p></td>              
+            <td> <p class="Enc">Encargado:
+              <select name="Encargados">
+                <option value="DAP">D.I. José Alejandro Canseco Flores</option>
+                <option value="A1">Ing. Arq. Leonardo Muñoz Mendoza"</option>
+                <option value="A2">José Luis Silva Díaz</option>
+                <option value="A3">Héctor Reyes Carmona</option>
+                <option value="DyS">Ing. Laurencio Waldo Hernández</option>
+              </select></p></td>
+            <td> <p class="Enc">Cargo del Encargado: <input type="text"name="nombre" value="" required></p></td>
+          </tr>
+          <tr>
+            <td> <p class="Enc">Tramo 1: <input type="text" name="nombre" autocapitalize="on" required value="" ></p></td>
+            <td> <p class="Enc">Tramo 2: <input type="text" name="nombre" autocapitalize="on" required value="" ></p></td>
+            
+          </tr>
+        </table> 
+      </div>
+
+      <div id="Encabezado-2">
+        <h1>Registro de incidencias</h1>
+      </div>
+
+      <div class="row">
+        <table border="1" class="customers" id="tablaprueba">
+          <thead>
+            <tr>
+              <th class="Enc">Descripción</th>
+              <th class="Enc">Croquis / Mapa</th>
+              <th class="Enc">Foto del Incidente</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <div class="form-group">
+          <button
+            type="button"
+            class="button"
+            onclick="agregarFila()">
+            Agregar
+          </button>
+
+          <button type="button" class="button-2" onclick="eliminarFila()">
+            Eliminar
+          </button>
+        </div>
+        <div class="finalizar">
+          <button
+            type="button"
+            class="button-3"
+            onclick="finalizarInforme()">
+            Finalizar informe
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Style.css" media="screen" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultar informes</title>
+  </head>
+  <body>
+    <script src="./script.js"></script>
+
+    <div class="container" id="border">
+
+      <div>
+        <img src="Logo.png">
+      </div>
+      <div id="Encabezado-1">
+        <h1>Consultar informes</h1>
+      </div>
+
+      <div class="row">
+        <table border="1" class="encabezado-consulta" id="tablaconsulta">
+          <thead>
+            <tr>
+              <th class="Enc">ID</th>
+              <th class="Enc">Fecha</th>
+              <th class="Enc">Encargado</th>
+              <th class="Enc">Vialidad</th>
+              <th class="Enc">Tramo 1</th>
+              <th class="Enc">Tramo 2</th>
+              <th class="Enc">PDF</th>
+              <th class="Enc"></th>
+            </tr>
+            <td class="datos-tabla">2022-06-03Ing. ATECE</td>
+            <td class="datos-tabla">2022-06-03</td>
+            <td class="datos-tabla">Ing. Arq. Leonardo Muñoz Mendoza</td>
+            <td class="datos-tabla">TELECOMUNICACIONES</td>
+            <td class="datos-tabla">CALZADA IGNACIO ZARAGOZA</td>
+            <td class="datos-tabla">EJE 5 SUR</td>
+            <td class="datos-tabla"><a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.slidesharecdn.com%2Fqueesuninforme-160203045137%2F85%2Fque-es-un-informe-1-320.jpg%3Fcb%3D1454475189&imgrefurl=https%3A%2F%2Fes.slideshare.net%2FPescaditoLuis%2Fque-es-un-informe-57813121&tbnid=o3Xv9cMJqZgnEM&vet=12ahUKEwiE9-rb0c74AhUGYM0KHZMfAOwQMygBegUIARDZAQ..i&docid=2luL2n05nDqxgM&w=320&h=415&q=informe&client=firefox-b-d&ved=2ahUKEwiE9-rb0c74AhUGYM0KHZMfAOwQMygBegUIARDZAQ">Ver</a></td>
+            <td class="datos-tabla">
+                    <button type="button" class="btneditar">Editar</button>
+                    <button type="button" class="btneliminar" onclick="eliminarRegistro(this.parentNode.parentNode.rowIndex)">Eliminar</button>  
+            </td>
+            <tr>
+            <td class="datos-tabla">2022-06-03Ing. ATECE</td>
+            <td class="datos-tabla">2022-06-03</td>
+            <td class="datos-tabla">Ing. Arq. Leonardo Muñoz Mendoza</td>
+            <td class="datos-tabla">TELECOMUNICACIONES</td>
+            <td class="datos-tabla">CALZADA IGNACIO ZARAGOZA</td>
+            <td class="datos-tabla">EJE 5 SUR</td>
+            <td class="datos-tabla"><a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.slidesharecdn.com%2Fqueesuninforme-160203045137%2F85%2Fque-es-un-informe-1-320.jpg%3Fcb%3D1454475189&imgrefurl=https%3A%2F%2Fes.slideshare.net%2FPescaditoLuis%2Fque-es-un-informe-57813121&tbnid=o3Xv9cMJqZgnEM&vet=12ahUKEwiE9-rb0c74AhUGYM0KHZMfAOwQMygBegUIARDZAQ..i&docid=2luL2n05nDqxgM&w=320&h=415&q=informe&client=firefox-b-d&ved=2ahUKEwiE9-rb0c74AhUGYM0KHZMfAOwQMygBegUIARDZAQ">Ver</a></td>
+            <td class="datos-tabla">
+                    <button type="button" class="btneditar">Editar</button>
+                    <button type="button" class="btneliminar" onclick="eliminarRegistro()">Eliminar</button>  
+            </td>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="form-group">
+          <button
+            form action="/index.html"
+            type="submit"
+            class="btngenerarinforme">
+            Generar informe
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

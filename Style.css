@@ -1,0 +1,173 @@
+/*ESTILOS DE LA INTERFAZ GENERAR INFORME*/
+table {
+    height:100%;
+    width:95%;
+    margin-left: 1%;
+  }
+  table, tr, td{
+    border:none;
+   }
+  img{
+    display: block;
+    margin: 0px auto;
+   }
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #866E47;
+    color: white;
+    border-bottom: #796443;
+  }
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#Encabezado-1 {
+    color: #866e47;
+  }
+#Encabezado-2 {
+  color: #866e47;
+
+}
+
+#border {
+  border-color: rgb(10, 10, 10);
+  border-width: 1px;
+  border-style: dotted;
+}
+div {
+width: 100%;
+}
+.button{
+    background-color: #866E47; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.form-group{
+  height:100%;
+  width:90%;
+  margin-left: 5%;
+  text-align: right;
+}
+.finalizar{
+  text-align: center;
+}
+.Enc{
+  font-family: 'Inter', sans-serif;
+}
+.button:hover {
+    background-color: #796443;
+}
+.button-2{
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button-2:hover {
+    background-color: rgb(182, 9, 9);
+}
+.button-3{
+  background-color: #581B1B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.button-3:hover{
+  background-color: #3a0c0c;
+}
+/*ESTILOS CONSULTA DE REGISTROS*/
+.encabezado-consulta th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #761212;
+  border: none;
+  width: fit-content;
+}
+
+.datos-tabla{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.btneditar{
+  background-color: #866E47; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  height: 2rem;
+  width: 5rem;
+}
+.btneditar:hover {
+  background-color: #796443;
+}
+
+.btneliminar{
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  height:2rem;
+  width:5rem;
+}
+
+.btneliminar:hover {
+  background-color: rgb(182, 9, 9);
+}
+.btngenerarinforme{
+  background-color: #581B1B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: right;
+  margin-top: 1rem;
+  margin-right: 1%;
+}
+.btngenerarinforme:hover{
+  background-color: #3a0c0c;
+}
+
+
+
+
